@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #30362f;
+}
+.navbar {
+  height: 9vh;
+  overflow: hidden;
+  position: sticky;
+  font-size: 1.2rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #625834;
+}
+.hexalogo {
+  width: 100%;
+  height: auto;
+  max-width: 8vw;
+}
+.navbar a {
+  color: #fffbdb;
+  text-decoration: none;
+}
+.one-nav,
+.two-nav {
+  overflow: hidden;
+  align-items: center;
+  height: 100%;
+  width: 30vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+.navbar-e {
+  padding: 5px 20px;
+}
+.navbar-e:hover {
+  background-color: #fffbdb;
+  color: #625834;
+}
+section {
+  padding: 20px;
+  margin: 50px 20px;
+}
+.home {
+  display: flex;
+  background-color: rgba(29, 53, 87, 0.59);
+  border-radius: 20px;
+}
+.alptv {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
+.bio {
+  display: flex;
+  flex-direction: column;
+}
+.bio > h1 {
+  margin-bottom: 15px;
+  font-size: 5rem;
+  color: white;
+}
+.alperen-text {
+  font-size: 20px;
+  display: block;
+  color: #da7422;
+  padding-right: 90px;
+}
+.lagas {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fffbdb;
+  margin-top: 30px;
+  font-size: 32px;
+}
+.info {
+  position: relative;
+  color: white;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 300px;
+}
+.quote {
+  text-align: center;
+  font-size: 2rem;
+  font-style: italic;
+}
+.typer {
+  text-align: right;
+}
+.info::before {
+  z-index: -9;
+  content: "";
+  background-image: url("./images/discord.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
+}
+.pricing {
+  display: flex;
+  justify-content: space-evenly;
+}
+.firstsec {
+  color: white;
+  background: yellowgreen;
+  padding: 20px;
+}
+.firstsec > div {
+  font-size: 20px;
+}
+.bot-secf {
+  color: grey;
+  background-color: white;
+  padding: 15px 20px;
+}
+.bot-secf p {
+  padding: 10px 0px;
+}
+.lagas4 h1 {
+  padding-bottom: 20px;
+  font-size: 50px;
+}
+.lagas4 {
+  box-shadow: 0px 10px 51px 0px rgba(255, 255, 255, 1);
+}
+.card {
+  text-align: center;
+  width: 400px;
+}
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+.second {
+  background-color: #8301da;
+}
+.third {
+  background-color: #b20101;
+}
+.fir {
+  box-shadow: 0px 10px 51px 0px yellowgreen;
+}
+.sec {
+  box-shadow: 0px 10px 51px 0px #8301da;
+}
+.thi {
+  box-shadow: 0px 10px 51px 0px #b20101;
+}
+.tip {
+  color: white;
+  float: left;
+  font-family: "Indie Flower";
+}
+.contact h3 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+.contactForm {
+  padding: 50px;
+  background-color: white;
+  margin: 30px auto;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  -webkit-box-shadow: -30px 30px 0 0 rgba(0,0,0,.08);
+}
+.str {
+  display: flex;
+  margin: 10px 0;
+}
+input {
+  font-size: 16px;
+}
+select {
+  font-size: 16px;
+  width: 100%;
+}
+.sele {
+  text-align: left;
+  width: 100%;
+}
+.grup {
+  width: 100%;
+  margin: 0 25px;
+  display: flex;
+  flex-direction: column;
+}
+input[type="submit"]{
+  font-size: 20px;
+  margin-top:20px;
+  padding: 15px;
+  border:none;
+  background: rgb(154,205,50);
+  color:white;
+  background: linear-gradient(137deg, rgba(154,205,50,1) 15%, rgba(131,1,218,1) 52%, rgba(178,1,1,1) 89%);
+}
+footer{
+  background-color:#1d211d;
+  text-align: center;
+  color:white;
+  padding:10px 0px;
+}
